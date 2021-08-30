@@ -1,0 +1,17 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "portfolio",
+	"main": "index.js",
+	"scripts": {
+		"test": "test",
+		"build-css": "node-sass --include-path scss ./scss/styled.scss ./css/styled.css",
+		"watch-css": "nodemon -e scss -x \"npm run build-css\""
+	},
+	"author": "Justo Jasmany Jaramillo Olarte",
+	"license": "ISC",
+	"dependencies": {
+		"node-sass": "^6.0.1",
+		"nodemon": "^2.0.12"
+	}
+}
